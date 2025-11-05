@@ -71,6 +71,7 @@ for event_name in filtered_event_set:
         this_event_results[col] = this_event_results[col].round(1).astype('float')
 
     this_event_results.insert(1, "Avatar", "https://mc-heads.net/avatar/" + this_event_results["Player"])
+    this_event_results = this_event_results[['Position', 'Avatar', 'Player', 'Rating', 'Global', 'EP', 'AP', 'Score', 'New Rating', 'Rating Change', 'New Global', 'Global Change']]
     this_event_results = this_event_results.rename(columns = {'Position': ''})  
 
     rc_abs_max = this_event_results['Rating Change'].abs().max()
