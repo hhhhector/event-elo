@@ -11,6 +11,7 @@ dependencies = [
     "pandas>=2.3.3",
     "pip>=25.3",
     "plotly>=6.3.1",
+    "requests>=2.32.5",
     "scipy>=1.16.3",
     "streamlit>=1.51.0",
     "streamlit-aggrid>=1.1.9",

@@ -112,9 +112,11 @@ with col2:
 
 with col3:
     st.header('Changelog')
-    ra_events = f"```{', '.join(list(reversed(list(summaries_unclassified.keys())[-3:])))}```"    
+    ra_events = list(reversed(list(summaries_unclassified.keys())[-10:]))
 
-    st.write('Recently Added:', ra_events)
+    st.write('Recent Events:')
+    for event in ra_events:
+        st.write("```", event, "-", summaries_unclassified[event]['date'].strftime("%Y/%m/%d"), "```")
     st.subheader('TODO')
     st.markdown("""
     - Predictions Tab\n\n
