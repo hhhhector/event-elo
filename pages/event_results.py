@@ -1,0 +1,113 @@
+import streamlit as st
+import pickle as pkl
+import matplotlib
+import pandas as pd
+
+st.title('Event Results')
+st.caption('EP : Expected Placement | AP : Actual Placement | Score : EP - AP')
+
+rating_history = pd.read_parquet('./data/rating_history.parquet')
+players = rating_history["Player"]
+event_types = ["MCC", "BW", "FW", "PB", "MH", "MN", "BC", "FUW", "JC", "CT", "BB", "CH", "TT", "KG", "SD"]
+
+
+with open('./data/summaries_unclassified.pkl', 'rb') as file:
+    data = pkl.load(file)
+
+event_set = reversed(list(data.keys()))
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    search = st.text_input("Event Name", value=None)
+
+with col2:
+    player_filter = st.selectbox("Player", options = sorted(players), index=None)
+
+
+filtered_event_set = []
+if not search and not player_filter:
+    filtered_event_set = list(event_set)
+else:
+    filtered_event_set = [
+        event_name for event_name in event_set
+        
+        if (not search or search.lower() in event_name.lower())
+        
+        and (not player_filter or player_filter.lower() in [x.lower() for x in data[event_name]['players']])
+    ]
+
+with col3:
+    limit = st.number_input("Display Limit (max: " + str(len(filtered_event_set)) + ")", min_value=0, max_value=len(filtered_event_set), value=min(20,len(filtered_event_set)))
+
+filtered_event_set = filtered_event_set[0:limit]
+
+string_to_find = player_filter
+
+def highlight_row(row):
+
+    if not string_to_find:
+        return [''] * len(row)
+
+    contains_string = row.astype(str).str.contains(string_to_find, case=False).any()
+    
+    if contains_string:
+        style = 'background-color: #0b0a0cff; color: #EAE151; font-weight: bold;'
+        return [style] * len(row)
+    else:
+        return [''] * len(row)
+
+st.write("Displaying", len(filtered_event_set), 'events')
+
+
+for event_name in filtered_event_set:
+    this_event = data[event_name]
+    this_event_results = this_event['results']
+
+    for col in ['Rating', 'Rating Change', 'New Rating']:
+        this_event_results[col] = this_event_results[col].round(0).astype('int64')
+
+    for col in ['EP', 'AP', 'Score']:
+        this_event_results[col] = this_event_results[col].round(1).astype('float')
+
+    this_event_results.insert(1, "Avatar", "https://mc-heads.net/avatar/" + this_event_results["Player"])
+    this_event_results = this_event_results.rename(columns = {'Position': ''})  
+
+    rc_abs_max = this_event_results['Rating Change'].abs().max()
+    gc_abs_max = this_event_results['Global Change'].abs().max()
+
+    with st.container(horizontal_alignment='center'):
+
+        st.header(this_event["event"] + ' Results')
+        st.write('Date:', this_event['date'].strftime("```%Y-%m-%d```"))
+        st.write("Player Count:", this_event["player_count"])
+    
+
+        st.dataframe(
+            this_event_results.style.apply(
+                highlight_row, axis=1
+            ).text_gradient(
+                cmap='RdYlGn', subset=['Rating Change'],vmin=-rc_abs_max,vmax=rc_abs_max
+            ).text_gradient(
+                cmap='RdYlGn', subset=['Global Change'],vmin=-gc_abs_max,vmax=gc_abs_max
+            ).set_properties(
+                subset=['EP', 'AP', 'Score'],
+                **{'color':'dimgray'}
+            ),  
+            hide_index=True,
+            width='content',
+            height=round(36.5+0.5*35.05*len(this_event_results)),
+            column_config={
+                '' : st.column_config.NumberColumn(format = "%d.",),
+                'Avatar': st.column_config.ImageColumn(""),
+                'Player': st.column_config.TextColumn(),
+                'Rating': st.column_config.NumberColumn('Old Rating'),
+                'Global': st.column_config.NumberColumn("Old Global", format = "#%d"),
+                'EP': st.column_config.NumberColumn(format="%.1f"),
+                'AP': st.column_config.NumberColumn(format="%.1f"),
+                'Score': st.column_config.NumberColumn(format="%.1f"),
+                'Rating Change': st.column_config.NumberColumn("",format='%+.0f'),
+                'New Global': st.column_config.NumberColumn(format = "#%d"),
+                'Global Change': st.column_config.NumberColumn("",format='%+.0f'),
+            }
+        )

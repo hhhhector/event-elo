@@ -1,0 +1,13 @@
+[theme]
+primaryColor = "#EAE151"
+backgroundColor = "#131215"
+secondaryBackgroundColor = "#0b0a0cff"
+textColor = "#FAFAFA"
+font = "sans serif"
+dataframeHeaderBackgroundColor = "#131215"
+dataframeBorderColor = "#131215"
+
+codeTextColor = "#EAE151"
+codeBackgroundColor = "#0b0a0cff"
+
+"#ea8451ff"

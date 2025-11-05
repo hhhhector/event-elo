@@ -1,11 +1,12 @@
 import streamlit as st
-
-main_page = st.Page("main_page.py", title="Main")
-rating_history = st.Page("rating_history.py", title="Rating History")
-event_results = st.Page("event_results.py", title="Event Results")
-event_history = st.Page("event_history.py", title="Event History")
+st.set_page_config(layout="wide")
 
 
-pg = st.navigation([main_page, rating_history, event_results, event_history])
+main_page = st.Page("pages/main_page.py", title="Home")
+rating_history = st.Page("pages/rating_history.py", title="Rating History")
+event_results = st.Page("pages/event_results.py", title="Event Results")
+event_history = st.Page("pages/event_history.py", title="Event History")
+
+pg = st.navigation({"Minecraft Event Elo" : [main_page, rating_history, event_results, event_history]}, position='sidebar')
 
 pg.run()

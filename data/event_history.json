@@ -2,8 +2,8 @@
   {
     "event": "MCC1",
     "date": "11/17/2019",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Quig",
       "Krtzy",
       "Michaelmcchill",
@@ -49,8 +49,8 @@
   {
     "event": "MCC2",
     "date": "2/9/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Quig",
       "TommyInnit",
       "Technoblade",
@@ -96,8 +96,8 @@
   {
     "event": "MCC3",
     "date": "3/14/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "PeteZahHutt",
       "Vikkstar123",
       "CaptainSparklez",
@@ -143,8 +143,8 @@
   {
     "event": "MCC4",
     "date": "4/18/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Technoblade",
       "PeteZahHutt",
       "Ph1LzA",
@@ -190,8 +190,8 @@
   {
     "event": "MCC5",
     "date": "5/16/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Quig",
       "PeteZahHutt",
       "CaptainSparklez",
@@ -237,8 +237,8 @@
   {
     "event": "MCC6",
     "date": "6/13/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "PeteZahHutt",
       "Quig",
       "Dream",
@@ -284,8 +284,8 @@
   {
     "event": "MCC7",
     "date": "7/18/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "PeteZahHutt",
       "HBomb94",
       "Dream",
@@ -331,8 +331,8 @@
   {
     "event": "MCC8",
     "date": "8/15/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Quig",
       "Dream",
       "PeteZahHutt",
@@ -378,8 +378,8 @@
   {
     "event": "MCC9",
     "date": "9/12/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "fruitberries",
       "Technoblade",
       "Sapnap",
@@ -425,8 +425,8 @@
   {
     "event": "MCC10",
     "date": "9/26/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Quig",
       "Technoblade",
       "Dream",
@@ -472,8 +472,8 @@
   {
     "event": "MCC11",
     "date": "10/24/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Dream",
       "fruitberries",
       "Technoblade",
@@ -519,8 +519,8 @@
   {
     "event": "BWO1",
     "date": "11/1/2020",
-    "participant_count": 20,
-    "participants": [
+    "player_count": 20,
+    "players": [
       "ManWithRaft",
       "FireBreathMan",
       "Solawr",
@@ -546,8 +546,8 @@
   {
     "event": "MCC12",
     "date": "11/14/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "fruitberries",
       "Ph1LzA",
       "Sapnap",
@@ -593,8 +593,8 @@
   {
     "event": "MCC13",
     "date": "12/12/2020",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "PeteZahHutt",
       "fruitberries",
       "Krtzy",
@@ -640,8 +640,8 @@
   {
     "event": "BWO2",
     "date": "12/20/2020",
-    "participant_count": 20,
-    "participants": [
+    "player_count": 20,
+    "players": [
       "ModdingArt",
       "FireBreathMan",
       "Standen05",
@@ -667,8 +667,8 @@
   {
     "event": "BWO3",
     "date": "2/6/2021",
-    "participant_count": 20,
-    "participants": [
+    "player_count": 20,
+    "players": [
       "Chugabunga",
       "Solawr",
       "WitheredFlux",
@@ -694,8 +694,8 @@
   {
     "event": "BWO4",
     "date": "3/27/2021",
-    "participant_count": 20,
-    "participants": [
+    "player_count": 20,
+    "players": [
       "FireBreathMan",
       "MarcusDoesMC",
       "WitheredFlux",
@@ -721,8 +721,8 @@
   {
     "event": "FW1",
     "date": "4/11/2021",
-    "participant_count": 12,
-    "participants": [
+    "player_count": 12,
+    "players": [
       "gummywroms",
       "FireBreathMan",
       "mysticat_",
@@ -740,8 +740,8 @@
   {
     "event": "BWO5",
     "date": "5/8/2021",
-    "participant_count": 20,
-    "participants": [
+    "player_count": 20,
+    "players": [
       "Chugabunga",
       "FireBreathMan",
       "ItzIgglesPiggles",
@@ -767,8 +767,8 @@
   {
     "event": "MCC14",
     "date": "5/9/2021",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "PeteZahHutt",
       "Punz",
       "Sapnap",
@@ -814,8 +814,8 @@
   {
     "event": "FW2",
     "date": "5/16/2021",
-    "participant_count": 16,
-    "participants": [
+    "player_count": 16,
+    "players": [
       "CGQ_",
       "Loefars",
       "FireBreathMan",
@@ -837,8 +837,8 @@
   {
     "event": "BWO6",
     "date": "6/26/2021",
-    "participant_count": 20,
-    "participants": [
+    "player_count": 20,
+    "players": [
       "Kirkonrctta",
       "EpicFH",
       "ItzIgglesPiggles",
@@ -864,8 +864,8 @@
   {
     "event": "MCC15",
     "date": "7/24/2021",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Sapnap",
       "TapL",
       "Illumina",
@@ -911,8 +911,8 @@
   {
     "event": "CH4",
     "date": "7/31/2021",
-    "participant_count": 16,
-    "participants": [
+    "player_count": 16,
+    "players": [
       "EpicFH",
       "Kirkonrctta",
       "TheTranscriptGuy",
@@ -934,8 +934,8 @@
   {
     "event": "BWO7",
     "date": "8/7/2021",
-    "participant_count": 20,
-    "participants": [
+    "player_count": 20,
+    "players": [
       "WitheredFlux",
       "SMK64",
       "FireBreathMan",
@@ -961,8 +961,8 @@
   {
     "event": "FW3",
     "date": "8/15/2021",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "RemoteBirch5",
       "CAAJBE",
       "Frosst7",
@@ -1000,8 +1000,8 @@
   {
     "event": "MCC16",
     "date": "8/28/2021",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Punz",
       "Quig",
       "fruitberries",
@@ -1047,8 +1047,8 @@
   {
     "event": "CH5",
     "date": "9/11/2021",
-    "participant_count": 16,
-    "participants": [
+    "player_count": 16,
+    "players": [
       "Standen05",
       "Migztery",
       "AbbyArtemiss",
@@ -1070,8 +1070,8 @@
   {
     "event": "BWO8",
     "date": "9/18/2021",
-    "participant_count": 20,
-    "participants": [
+    "player_count": 20,
+    "players": [
       "FireBreathMan",
       "DONG_FORTNITE",
       "ModdingArt",
@@ -1097,8 +1097,8 @@
   {
     "event": "MCC17",
     "date": "9/18/2021",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "PeteZahHutt",
       "fruitberries",
       "Quig",
@@ -1144,8 +1144,8 @@
   {
     "event": "FW4",
     "date": "9/19/2021",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "gummywroms",
       "CGQ_",
       "Toph033",
@@ -1183,8 +1183,8 @@
   {
     "event": "MCCR",
     "date": "10/2/2021",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "YelloWool",
       "Kierrrr",
       "SpeedSilver",
@@ -1230,8 +1230,8 @@
   {
     "event": "CH6",
     "date": "10/16/2021",
-    "participant_count": 16,
-    "participants": [
+    "player_count": 16,
+    "players": [
       "Kirkonrctta",
       "TheTranscriptGuy",
       "Migztery",
@@ -1253,8 +1253,8 @@
   {
     "event": "BWO9",
     "date": "10/23/2021",
-    "participant_count": 20,
-    "participants": [
+    "player_count": 20,
+    "players": [
       "EpicFH",
       "WitheredFlux",
       "Mysticat_",
@@ -1280,8 +1280,8 @@
   {
     "event": "MCC18",
     "date": "10/23/2021",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Illumina",
       "Sapnap",
       "Dream",
@@ -1327,8 +1327,8 @@
   {
     "event": "FW5",
     "date": "10/24/2021",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Toph033",
       "Kirkonrctta",
       "Frosst7",
@@ -1366,8 +1366,8 @@
   {
     "event": "MCCAS",
     "date": "11/13/2021",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Dream",
       "Sapnap",
       "fruitberries",
@@ -1413,8 +1413,8 @@
   {
     "event": "FW6",
     "date": "11/14/2021",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "EpicFH",
       "Toph033",
       "Loefars",
@@ -1452,8 +1452,8 @@
   {
     "event": "MCC19",
     "date": "12/11/2021",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "fruitberries",
       "Sapnap",
       "Punz",
@@ -1499,8 +1499,8 @@
   {
     "event": "CH7",
     "date": "12/11/2021",
-    "participant_count": 16,
-    "participants": [
+    "player_count": 16,
+    "players": [
       "Standen05",
       "Kirkonrctta",
       "Theospelar",
@@ -1522,8 +1522,8 @@
   {
     "event": "FW7",
     "date": "12/12/2021",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Toph033",
       "Kaos21a",
       "oGarfield",
@@ -1561,8 +1561,8 @@
   {
     "event": "BWO10",
     "date": "12/18/2021",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Kirkonrctta",
       "Standen05",
       "Solawr",
@@ -1608,8 +1608,8 @@
   {
     "event": "CH8",
     "date": "2/12/2022",
-    "participant_count": 16,
-    "participants": [
+    "player_count": 16,
+    "players": [
       "TheTranscriptGuy",
       "Migztery",
       "_Luva",
@@ -1631,8 +1631,8 @@
   {
     "event": "PB1",
     "date": "3/6/2022",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Toph033",
       "Awre_",
       "ubhi",
@@ -1670,8 +1670,8 @@
   {
     "event": "CH9",
     "date": "3/19/2022",
-    "participant_count": 16,
-    "participants": [
+    "player_count": 16,
+    "players": [
       "Standen05",
       "Kirkonrctta",
       "Theospelar",
@@ -1693,8 +1693,8 @@
   {
     "event": "MCC20",
     "date": "3/26/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Illumina",
       "Quig",
       "Punz",
@@ -1740,8 +1740,8 @@
   {
     "event": "PB2",
     "date": "4/10/2022",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Toph033",
       "CAAJBE",
       "C10WD",
@@ -1779,8 +1779,8 @@
   {
     "event": "MCC21",
     "date": "4/30/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Sapnap",
       "fruitberries",
       "Purpled",
@@ -1826,8 +1826,8 @@
   {
     "event": "CH10",
     "date": "4/30/2022",
-    "participant_count": 16,
-    "participants": [
+    "player_count": 16,
+    "players": [
       "Kaiferno",
       "Theospelar",
       "Graytsu",
@@ -1849,8 +1849,8 @@
   {
     "event": "PB3",
     "date": "5/15/2022",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "FireBreathMan",
       "Kaelan_",
@@ -1888,8 +1888,8 @@
   {
     "event": "MCC22",
     "date": "5/28/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Dream",
       "Purpled",
       "jojosolos",
@@ -1935,8 +1935,8 @@
   {
     "event": "BWO11",
     "date": "6/11/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Standen05",
       "Solawr",
       "Sncm",
@@ -1982,8 +1982,8 @@
   {
     "event": "MCCP22",
     "date": "6/18/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Illumina",
       "Antfrost",
       "Dream",
@@ -2029,8 +2029,8 @@
   {
     "event": "CH11",
     "date": "6/18/2022",
-    "participant_count": 16,
-    "participants": [
+    "player_count": 16,
+    "players": [
       "Theospelar",
       "oGarfield",
       "Kirkonrctta",
@@ -2052,8 +2052,8 @@
   {
     "event": "BWO12",
     "date": "7/9/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "DONG_FORTNITE",
       "Step_To_Hell",
       "Solawr",
@@ -2099,8 +2099,8 @@
   {
     "event": "PB4",
     "date": "7/17/2022",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "C10WD",
       "FireBreathMan",
@@ -2138,8 +2138,8 @@
   {
     "event": "MCC23",
     "date": "7/23/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Quig",
       "Punz",
       "Sapnap",
@@ -2185,8 +2185,8 @@
   {
     "event": "CH12",
     "date": "7/30/2022",
-    "participant_count": 16,
-    "participants": [
+    "player_count": 16,
+    "players": [
       "Migztery",
       "EpicFH",
       "k_tie",
@@ -2208,8 +2208,8 @@
   {
     "event": "BWO13",
     "date": "8/13/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "WitheredFlux",
       "EpicFH",
       "FireBreathMan",
@@ -2255,8 +2255,8 @@
   {
     "event": "PB5",
     "date": "8/14/2022",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "ItzIgglesPiggles",
       "Toph033",
       "Kaelan_",
@@ -2294,8 +2294,8 @@
   {
     "event": "MCC24",
     "date": "8/20/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "HBomb94",
       "Purpled",
       "Dream",
@@ -2341,8 +2341,8 @@
   {
     "event": "BWO14",
     "date": "9/3/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "EpicFH",
       "DONG_FORTNITE",
       "gummywroms",
@@ -2388,8 +2388,8 @@
   {
     "event": "CHAS",
     "date": "9/17/2022",
-    "participant_count": 16,
-    "participants": [
+    "player_count": 16,
+    "players": [
       "Theospelar",
       "OhSoWow",
       "CxrtxR",
@@ -2411,8 +2411,8 @@
   {
     "event": "MCC25",
     "date": "9/24/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "jojosolos",
       "Sapnap",
       "fruitberries",
@@ -2458,8 +2458,8 @@
   {
     "event": "BWO15",
     "date": "10/15/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Solawr",
       "DONG_FORTNITE",
       "Standen05",
@@ -2505,8 +2505,8 @@
   {
     "event": "MCC26",
     "date": "10/22/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Purpled",
       "fruitberries",
       "PeteZahHutt",
@@ -2552,8 +2552,8 @@
   {
     "event": "MCC27",
     "date": "11/12/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "FireBreathMan",
       "hannahxxrose",
       "FoolishG",
@@ -2599,8 +2599,8 @@
   {
     "event": "BW1",
     "date": "11/19/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "xShatter",
       "Purpled",
       "Wolfeei",
@@ -2646,8 +2646,8 @@
   {
     "event": "BWO16",
     "date": "11/26/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Standen05",
       "EpicFH",
       "gummywroms",
@@ -2693,8 +2693,8 @@
   {
     "event": "MCC28",
     "date": "12/3/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Illumina",
       "Purpled",
       "jojosolos",
@@ -2740,8 +2740,8 @@
   {
     "event": "BW2",
     "date": "12/10/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "FireBreathMan",
       "Purpled",
       "Antfrost",
@@ -2787,8 +2787,8 @@
   {
     "event": "BWO17",
     "date": "12/17/2022",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "WitheredFlux",
       "Step_To_Hell",
       "Standen05",
@@ -2834,8 +2834,8 @@
   {
     "event": "BW3",
     "date": "1/28/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "ItzIgglesPiggles",
       "DONG_FORTNITE",
       "FireBreathMan",
@@ -2881,8 +2881,8 @@
   {
     "event": "MH20",
     "date": "1/28/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "DefaultTem",
       "SmallTwig",
       "Asphult",
@@ -2920,8 +2920,8 @@
   {
     "event": "BWO18",
     "date": "2/11/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Kelawesome",
       "Solawr",
       "Toph033",
@@ -2967,8 +2967,8 @@
   {
     "event": "MN1",
     "date": "2/25/2023",
-    "participant_count": 18,
-    "participants": [
+    "player_count": 18,
+    "players": [
       "axoleoo",
       "MrPigster",
       "xFrosties",
@@ -2992,8 +2992,8 @@
   {
     "event": "MH21",
     "date": "3/4/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "LandonLegends",
       "Sbge",
       "RNGbooga",
@@ -3031,8 +3031,8 @@
   {
     "event": "BW4",
     "date": "3/11/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Purpled",
       "Greninja",
       "Couriway",
@@ -3078,8 +3078,8 @@
   {
     "event": "BWO19",
     "date": "3/18/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Solawr",
       "Kelawesome",
       "Standen05",
@@ -3125,8 +3125,8 @@
   {
     "event": "MCC29",
     "date": "3/18/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "jojosolos",
       "PeteZahHutt",
       "Purpled",
@@ -3172,8 +3172,8 @@
   {
     "event": "MN2",
     "date": "3/18/2023",
-    "participant_count": 24,
-    "participants": [
+    "player_count": 24,
+    "players": [
       "Hydu",
       "oToadd",
       "tailsboy",
@@ -3203,8 +3203,8 @@
   {
     "event": "MH22",
     "date": "4/1/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "DarkMojo",
       "LandonLegends",
       "DONG_FORTNITE",
@@ -3242,8 +3242,8 @@
   {
     "event": "PB6",
     "date": "4/2/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "gummywroms",
       "Awre_",
@@ -3281,8 +3281,8 @@
   {
     "event": "BW5",
     "date": "4/15/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Feinberg",
       "FireBreathMan",
       "Mysticat_",
@@ -3328,8 +3328,8 @@
   {
     "event": "MN3",
     "date": "4/15/2023",
-    "participant_count": 24,
-    "participants": [
+    "player_count": 24,
+    "players": [
       "DONG_FORTNITE",
       "oToadd",
       "ItzIgglesPiggles",
@@ -3359,8 +3359,8 @@
   {
     "event": "MN4",
     "date": "4/20/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "axoleoo",
       "ItzIgglesPiggles",
       "Hydu",
@@ -3398,8 +3398,8 @@
   {
     "event": "BWO20",
     "date": "4/22/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "ilovenons",
       "Step_To_Hell",
       "oGarfield",
@@ -3445,8 +3445,8 @@
   {
     "event": "MCC30",
     "date": "4/29/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "FireBreathMan",
       "Purpled",
       "Antfrost",
@@ -3492,8 +3492,8 @@
   {
     "event": "MHBB23",
     "date": "5/6/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "SmallTwig",
       "YourFriendlyDuck",
       "LandonLegends",
@@ -3531,8 +3531,8 @@
   {
     "event": "PB7",
     "date": "5/7/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kaelan_",
       "ItzIgglesPiggles",
       "C10WD",
@@ -3570,8 +3570,8 @@
   {
     "event": "BW6",
     "date": "5/13/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Purpled",
       "Feinberg",
       "Antfrost",
@@ -3617,8 +3617,8 @@
   {
     "event": "CH13",
     "date": "5/13/2023",
-    "participant_count": 24,
-    "participants": [
+    "player_count": 24,
+    "players": [
       "Kaiferno",
       "Theospelar",
       "OhSoWow",
@@ -3648,8 +3648,8 @@
   {
     "event": "BWO21",
     "date": "5/20/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "WitheredFlux",
       "Kelawesome",
       "ilovenons",
@@ -3695,8 +3695,8 @@
   {
     "event": "MCC31",
     "date": "5/20/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Purpled",
       "Sapnap",
       "FireBreathMan",
@@ -3742,8 +3742,8 @@
   {
     "event": "MHAS",
     "date": "5/27/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "NotKevin",
       "TechnoIsPog",
       "YourFriendlyDuck",
@@ -3781,8 +3781,8 @@
   {
     "event": "MCCP23",
     "date": "6/10/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Krtzy",
       "PeteZahHutt",
       "mysticat_",
@@ -3828,8 +3828,8 @@
   {
     "event": "CH14",
     "date": "6/17/2023",
-    "participant_count": 24,
-    "participants": [
+    "player_count": 24,
+    "players": [
       "Kaiferno",
       "CxrtxR",
       "Theospelar",
@@ -3859,8 +3859,8 @@
   {
     "event": "BWO22",
     "date": "6/24/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Standen05",
       "C10WD",
       "Kelawesome",
@@ -3906,8 +3906,8 @@
   {
     "event": "MHP23",
     "date": "6/24/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Asphult",
       "C10WD",
       "SandwichLord_",
@@ -3945,8 +3945,8 @@
   {
     "event": "BC1",
     "date": "7/2/2023",
-    "participant_count": 31,
-    "participants": [
+    "player_count": 31,
+    "players": [
       "owntro",
       "Viglot",
       "Lizariam",
@@ -3983,8 +3983,8 @@
   {
     "event": "MCC32",
     "date": "7/15/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "fruitberries",
       "Purpled",
       "FireBreathMan",
@@ -4030,8 +4030,8 @@
   {
     "event": "MN5",
     "date": "7/15/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Kelawesome",
       "PhazeRay",
       "SandwichLord_",
@@ -4077,8 +4077,8 @@
   {
     "event": "BW7",
     "date": "7/22/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Feinberg",
       "FireBreathMan",
       "mysticat_",
@@ -4124,8 +4124,8 @@
   {
     "event": "BC2",
     "date": "7/23/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Hydu",
       "Sturmcheese",
       "Muhisquid",
@@ -4163,8 +4163,8 @@
   {
     "event": "BWO23",
     "date": "7/29/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "oGarfield",
       "Solawr",
       "SMK64",
@@ -4210,8 +4210,8 @@
   {
     "event": "MCC33",
     "date": "8/5/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "fruitberries",
       "FireBreathMan",
       "Purpled",
@@ -4257,8 +4257,8 @@
   {
     "event": "PB8",
     "date": "8/13/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "craftclan",
       "EpicFH",
@@ -4296,8 +4296,8 @@
   {
     "event": "MN6",
     "date": "8/19/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "dennnz",
       "DONG_FORTNITE",
       "Macklez",
@@ -4335,8 +4335,8 @@
   {
     "event": "MCCR2",
     "date": "8/26/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "apokuna",
       "Nominalgravy",
       "4CVIT",
@@ -4382,8 +4382,8 @@
   {
     "event": "BC4",
     "date": "9/2/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "MrPigster",
       "Hydu",
       "EeveesXM",
@@ -4421,8 +4421,8 @@
   {
     "event": "MCC34",
     "date": "9/16/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "jojosolos",
       "FireBreathMan",
       "fruitberries",
@@ -4468,8 +4468,8 @@
   {
     "event": "MN7",
     "date": "9/23/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "oToadd",
       "DONG_FORTNITE",
       "dennnz",
@@ -4507,8 +4507,8 @@
   {
     "event": "BC5",
     "date": "9/23/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "MrPigster",
       "Viilmer",
       "c0rpy",
@@ -4546,8 +4546,8 @@
   {
     "event": "CH15",
     "date": "9/23/2023",
-    "participant_count": 24,
-    "participants": [
+    "player_count": 24,
+    "players": [
       "CxrtxR",
       "Standen05",
       "ellaspice",
@@ -4577,8 +4577,8 @@
   {
     "event": "MH23",
     "date": "9/30/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "Toph033",
       "Kaelan_",
@@ -4616,8 +4616,8 @@
   {
     "event": "PB9",
     "date": "10/1/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "C10WD",
       "Toph033",
@@ -4655,8 +4655,8 @@
   {
     "event": "BC6",
     "date": "10/13/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Vibesnek",
       "Cookithy",
       "Anti_Taaco",
@@ -4694,8 +4694,8 @@
   {
     "event": "MH24",
     "date": "10/14/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Pebbs_",
       "ReadyReddyPanda",
       "Finmin_",
@@ -4733,8 +4733,8 @@
   {
     "event": "MCCTR",
     "date": "10/20/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Antfrost",
       "fruitberries",
       "Purpled",
@@ -4780,8 +4780,8 @@
   {
     "event": "BW8",
     "date": "10/28/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Purpled",
       "Greninja",
       "camman18YT",
@@ -4827,8 +4827,8 @@
   {
     "event": "BWO24",
     "date": "11/4/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Kelawesome",
       "ilovenons",
       "Toph033",
@@ -4874,8 +4874,8 @@
   {
     "event": "BC7",
     "date": "11/4/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Accappy",
       "Dawld",
       "sdiuqs",
@@ -4913,8 +4913,8 @@
   {
     "event": "CH16",
     "date": "11/4/2023",
-    "participant_count": 24,
-    "participants": [
+    "player_count": 24,
+    "players": [
       "Kaiferno",
       "EpicFH",
       "Standen05",
@@ -4944,8 +4944,8 @@
   {
     "event": "MCCPARTY",
     "date": "11/11/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "fruitberries",
       "Purpled",
       "hannahxxrose",
@@ -4991,8 +4991,8 @@
   {
     "event": "BC8",
     "date": "11/25/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "GizzeMisse",
       "Vibesnek",
       "BreadEaterPeter",
@@ -5030,8 +5030,8 @@
   {
     "event": "BW9",
     "date": "12/2/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Feinberg",
       "Shadoune777",
       "Couriway",
@@ -5077,8 +5077,8 @@
   {
     "event": "PB10",
     "date": "12/3/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "DONG_FORTNITE",
       "MCmorganplayz",
       "SandwichLord_",
@@ -5116,8 +5116,8 @@
   {
     "event": "BC9",
     "date": "12/6/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Accappy",
       "sdiuqs",
       "Sturmcheese",
@@ -5155,8 +5155,8 @@
   {
     "event": "BWO25",
     "date": "12/9/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "WitheredFlux",
       "Kaelan_",
       "Solawr",
@@ -5202,8 +5202,8 @@
   {
     "event": "MCC35",
     "date": "12/9/2023",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "PeteZahHutt",
       "Shadoune777",
       "hannahxxrose",
@@ -5249,8 +5249,8 @@
   {
     "event": "MH25",
     "date": "12/16/2023",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "SandwichLord_",
       "Standen05",
       "Kaelan_",
@@ -5288,8 +5288,8 @@
   {
     "event": "MH26",
     "date": "1/13/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "CxrtxR",
       "SoulTB",
       "Kelawesome",
@@ -5327,8 +5327,8 @@
   {
     "event": "BC10",
     "date": "1/13/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "AK5",
       "MrPigster",
       "d7lta",
@@ -5366,8 +5366,8 @@
   {
     "event": "JCGN5",
     "date": "1/19/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "PhazeRay",
       "Asphult",
@@ -5405,8 +5405,8 @@
   {
     "event": "BW10",
     "date": "1/20/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Feinberg",
       "FireBreathMan",
       "Purpled",
@@ -5452,8 +5452,8 @@
   {
     "event": "MN8",
     "date": "1/20/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Kelawesome",
       "Kaelan_",
       "_Brinkz",
@@ -5499,8 +5499,8 @@
   {
     "event": "FUW4",
     "date": "1/27/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "NotAreo",
       "Moisteh",
       "ubhi",
@@ -5546,8 +5546,8 @@
   {
     "event": "BC11",
     "date": "2/3/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "BreadEaterPeter",
       "wheresmyyjules",
       "Sturmcheese",
@@ -5585,8 +5585,8 @@
   {
     "event": "PB11",
     "date": "2/4/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Feinberg",
       "Purpled",
       "Toph033",
@@ -5624,8 +5624,8 @@
   {
     "event": "BWO27",
     "date": "2/10/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Standen05",
       "Kelawesome",
       "Toph033",
@@ -5671,8 +5671,8 @@
   {
     "event": "MH27",
     "date": "2/17/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Toph033",
       "SandwichLord_",
       "Kaelan_",
@@ -5710,8 +5710,8 @@
   {
     "event": "BC12",
     "date": "2/24/2024",
-    "participant_count": 31,
-    "participants": [
+    "player_count": 31,
+    "players": [
       "MarcusDoesMC",
       "sdiuqs",
       "_Brinkz",
@@ -5748,8 +5748,8 @@
   {
     "event": "JCGN6",
     "date": "3/15/2024",
-    "participant_count": 24,
-    "participants": [
+    "player_count": 24,
+    "players": [
       "SoulTB",
       "ItzIgglesPiggles",
       "starish",
@@ -5779,8 +5779,8 @@
   {
     "event": "MN9",
     "date": "3/16/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Kaelan_",
       "SandwichLord_",
       "xFrosties",
@@ -5826,8 +5826,8 @@
   {
     "event": "BC13",
     "date": "3/16/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "_Brinkz",
       "Gcrt",
@@ -5865,8 +5865,8 @@
   {
     "event": "TT1",
     "date": "3/17/2024",
-    "participant_count": 48,
-    "participants": [
+    "player_count": 48,
+    "players": [
       "Kbelik",
       "Sackred",
       "ItzIgglesPiggles",
@@ -5920,8 +5920,8 @@
   {
     "event": "MH28",
     "date": "3/23/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "SandwichLord_",
       "FireBreathMan",
       "Reddoons",
@@ -5959,8 +5959,8 @@
   {
     "event": "MNWHM",
     "date": "3/30/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Maskyzee",
       "MCBIGMACPLAYZ",
       "RiceInRealTime",
@@ -6006,8 +6006,8 @@
   {
     "event": "PB12",
     "date": "4/7/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kaelan_",
       "Feinberg",
       "ItzIgglesPiggles",
@@ -6045,8 +6045,8 @@
   {
     "event": "TT2",
     "date": "4/14/2024",
-    "participant_count": 48,
-    "participants": [
+    "player_count": 48,
+    "players": [
       "Lackyz",
       "Sackred",
       "Lunapie20011",
@@ -6100,8 +6100,8 @@
   {
     "event": "MH29",
     "date": "4/20/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "DONG_FORTNITE",
       "Kaelan_",
       "FireBreathMan",
@@ -6139,8 +6139,8 @@
   {
     "event": "JCGN7",
     "date": "4/26/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "SandwichLord_",
       "Messyo",
       "Kaelan_",
@@ -6178,8 +6178,8 @@
   {
     "event": "FUW5",
     "date": "4/27/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Toph033",
       "WeChokeOnMilk",
       "_Brinkz",
@@ -6225,8 +6225,8 @@
   {
     "event": "BC14",
     "date": "4/28/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "GizzeMisse",
       "Toph033",
       "_Brinkz",
@@ -6264,8 +6264,8 @@
   {
     "event": "MCC4KO",
     "date": "5/4/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "FireBreathMan",
       "Feinberg",
       "Antfrost",
@@ -6311,8 +6311,8 @@
   {
     "event": "TT3",
     "date": "5/12/2024",
-    "participant_count": 48,
-    "participants": [
+    "player_count": 48,
+    "players": [
       "bzrkLIVE",
       "ItzIgglesPiggles",
       "_Brinkz",
@@ -6366,8 +6366,8 @@
   {
     "event": "JCGN8",
     "date": "5/17/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "PhazeRay",
       "Hashtagie",
       "Kirkonrctta",
@@ -6405,8 +6405,8 @@
   {
     "event": "BC15",
     "date": "5/18/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Toph033",
       "BreadEaterPeter",
       "Kaelan_",
@@ -6444,8 +6444,8 @@
   {
     "event": "MHBB24",
     "date": "5/25/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "PhazeRay",
       "Asphult",
       "Pebbs_",
@@ -6483,8 +6483,8 @@
   {
     "event": "JCGN9",
     "date": "5/26/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "SandwichLord_",
       "mightybrothers1",
       "Messyo",
@@ -6522,8 +6522,8 @@
   {
     "event": "MCCP24",
     "date": "6/1/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "jojosolos",
       "Antfrost",
       "hannahxxrose",
@@ -6569,8 +6569,8 @@
   {
     "event": "PB13",
     "date": "6/2/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Toph033",
       "Kaelan_",
       "FireBreathMan",
@@ -6608,8 +6608,8 @@
   {
     "event": "JCGN10",
     "date": "6/7/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "SandwichLord_",
       "d7lta",
       "_Brinkz",
@@ -6647,8 +6647,8 @@
   {
     "event": "CT1",
     "date": "6/15/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "ScottoAC",
       "ubhi",
       "Moisteh",
@@ -6686,8 +6686,8 @@
   {
     "event": "MNP24",
     "date": "6/15/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "SoulTB",
       "PhazeRay",
       "Kaelan_",
@@ -6733,8 +6733,8 @@
   {
     "event": "MHP24",
     "date": "6/15/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "SoulTB",
       "Kaelan_",
@@ -6772,8 +6772,8 @@
   {
     "event": "TT4",
     "date": "6/16/2024",
-    "participant_count": 48,
-    "participants": [
+    "player_count": 48,
+    "players": [
       "Kbelik",
       "CGQ_",
       "HeerTimmethy",
@@ -6827,8 +6827,8 @@
   {
     "event": "FUWP2",
     "date": "6/22/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "CGQ_",
       "_Brinkz",
       "Greninja",
@@ -6874,8 +6874,8 @@
   {
     "event": "MCCTRE",
     "date": "6/30/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Coldified",
       "PeteZahHutt",
       "SandwichLord_",
@@ -6921,8 +6921,8 @@
   {
     "event": "BC16",
     "date": "7/13/2024",
-    "participant_count": 28,
-    "participants": [
+    "player_count": 28,
+    "players": [
       "EeveesXM",
       "Kaelan_",
       "Hydu",
@@ -6956,8 +6956,8 @@
   {
     "event": "MH30",
     "date": "7/20/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "SandwichLord_",
       "FireBreathMan",
       "ubhi",
@@ -6995,8 +6995,8 @@
   {
     "event": "FUWVC",
     "date": "7/20/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "_Brinkz",
       "Standen05",
       "ubhi",
@@ -7042,8 +7042,8 @@
   {
     "event": "MCCEC",
     "date": "7/27/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "fruitberries",
       "Purpled",
       "FireBreathMan",
@@ -7089,8 +7089,8 @@
   {
     "event": "MN10",
     "date": "7/27/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Toph033",
       "MCmorganplayz",
       "MCBIGMACPLAYZ",
@@ -7136,8 +7136,8 @@
   {
     "event": "PB14A",
     "date": "8/4/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "Toph033",
       "Kaelan_",
@@ -7175,8 +7175,8 @@
   {
     "event": "BW11",
     "date": "8/10/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "camman18YT",
       "Feinberg",
       "Purpled",
@@ -7222,8 +7222,8 @@
   {
     "event": "CT2",
     "date": "8/10/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Toph033",
       "Moisteh",
       "CGQ_",
@@ -7261,8 +7261,8 @@
   {
     "event": "BCA17",
     "date": "8/10/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Brunted",
       "RubaanOfzo",
       "oToadd",
@@ -7300,8 +7300,8 @@
   {
     "event": "BC17",
     "date": "8/11/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "SoulTB",
       "Kelawesome",
       "Kaelan_",
@@ -7339,8 +7339,8 @@
   {
     "event": "BWO28",
     "date": "8/24/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "SMK64",
       "Kaelan_",
       "FireBreathMan",
@@ -7386,8 +7386,8 @@
   {
     "event": "BC18",
     "date": "8/31/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kaelan_",
       "ubhi",
       "Toph033",
@@ -7425,8 +7425,8 @@
   {
     "event": "BB1",
     "date": "8/31/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "SlushieVRC",
       "ItzIgglesPiggles",
       "SandwichLord_",
@@ -7464,8 +7464,8 @@
   {
     "event": "CH17",
     "date": "8/31/2024",
-    "participant_count": 24,
-    "participants": [
+    "player_count": 24,
+    "players": [
       "Kelawesome",
       "CxrtxR",
       "Kirkonrctta",
@@ -7495,8 +7495,8 @@
   {
     "event": "PB14G",
     "date": "9/1/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "C10WD",
       "ubhi",
       "CGQ_",
@@ -7534,8 +7534,8 @@
   {
     "event": "BCA18",
     "date": "9/1/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "EeveesXM",
       "BoredLmao",
       "vDawg",
@@ -7573,8 +7573,8 @@
   {
     "event": "MCCR3",
     "date": "9/7/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Plushy33",
       "PrinceZam",
       "AbolishRegret",
@@ -7620,8 +7620,8 @@
   {
     "event": "BW12",
     "date": "9/14/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Feinberg",
       "Purpled",
       "FireBreathMan",
@@ -7667,8 +7667,8 @@
   {
     "event": "MHI",
     "date": "9/14/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "CGQ_",
       "ScottoAC",
       "Pose1dan",
@@ -7706,8 +7706,8 @@
   {
     "event": "MCCTRSD",
     "date": "9/21/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "fruitberries",
       "Purpled",
       "Shadoune777",
@@ -7753,8 +7753,8 @@
   {
     "event": "BC19",
     "date": "9/21/2024",
-    "participant_count": 31,
-    "participants": [
+    "player_count": 31,
+    "players": [
       "SoulTB",
       "EpicFH",
       "JohnDubuc",
@@ -7792,8 +7792,8 @@
   {
     "event": "BCA19",
     "date": "9/22/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "PizzaSliderr",
       "GizzeMisse",
       "BreadEaterPeter",
@@ -7831,8 +7831,8 @@
   {
     "event": "TT5",
     "date": "9/22/2024",
-    "participant_count": 48,
-    "participants": [
+    "player_count": 48,
+    "players": [
       "ScottoAC",
       "CGQ_",
       "Kaelan_",
@@ -7886,8 +7886,8 @@
   {
     "event": "BWO29",
     "date": "9/28/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Solawr",
       "Kaelan_",
       "Toph033",
@@ -7933,8 +7933,8 @@
   {
     "event": "MN11",
     "date": "9/28/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Kaelan_",
       "Trualist",
       "FireBreathMan",
@@ -7980,8 +7980,8 @@
   {
     "event": "BBM1",
     "date": "9/29/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "SoulTB",
       "CGQ_",
       "Trolliant",
@@ -8027,8 +8027,8 @@
   {
     "event": "KG1",
     "date": "10/6/2024",
-    "participant_count": 31,
-    "participants": [
+    "player_count": 31,
+    "players": [
       "oToadd",
       "Rhil",
       "lewisolovesyello",
@@ -8065,8 +8065,8 @@
   {
     "event": "BW13",
     "date": "10/12/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Feinberg",
       "FireBreathMan",
       "xShatter",
@@ -8112,8 +8112,8 @@
   {
     "event": "CH18",
     "date": "10/12/2024",
-    "participant_count": 23,
-    "participants": [
+    "player_count": 23,
+    "players": [
       "Standen05",
       "Kaiferno",
       "Kelawesome",
@@ -8142,8 +8142,8 @@
   {
     "event": "BWO30",
     "date": "10/19/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Kelawesome",
       "ubhi",
       "Standen05",
@@ -8189,8 +8189,8 @@
   {
     "event": "MCCHH",
     "date": "10/26/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "FireBreathMan",
       "Feinberg",
       "Shadoune777",
@@ -8236,8 +8236,8 @@
   {
     "event": "BCA20",
     "date": "10/26/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "usefulsister24",
       "MacFarout",
       "dolphinman_rl",
@@ -8275,8 +8275,8 @@
   {
     "event": "CT3",
     "date": "10/27/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "CAAJBE",
       "Kaelan_",
       "Kelawesome",
@@ -8314,8 +8314,8 @@
   {
     "event": "BC20",
     "date": "10/27/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "SoulTB",
       "Coldified",
       "Standen05",
@@ -8353,8 +8353,8 @@
   {
     "event": "KG2",
     "date": "11/3/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "ExtremelyDeadGuy",
       "IInvex",
       "lewisolovesyello",
@@ -8392,8 +8392,8 @@
   {
     "event": "CH19",
     "date": "11/16/2024",
-    "participant_count": 24,
-    "participants": [
+    "player_count": 24,
+    "players": [
       "ellaspice",
       "Standen05",
       "bapsyy",
@@ -8423,8 +8423,8 @@
   {
     "event": "BBM2",
     "date": "11/24/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Kelawesome",
       "Stemister",
       "WeChokeOnMilk",
@@ -8470,8 +8470,8 @@
   {
     "event": "TT6",
     "date": "12/1/2024",
-    "participant_count": 48,
-    "participants": [
+    "player_count": 48,
+    "players": [
       "WheezyMoss",
       "Sackred",
       "Kbelik",
@@ -8525,8 +8525,8 @@
   {
     "event": "BWCCOTR",
     "date": "12/3/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "FireBreathMan",
       "Feinberg",
       "Purpled",
@@ -8572,8 +8572,8 @@
   {
     "event": "MCCPARTY2",
     "date": "12/7/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Feinberg",
       "Antfrost",
       "Shadoune777",
@@ -8619,8 +8619,8 @@
   {
     "event": "MN12",
     "date": "12/7/2024",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Kelawesome",
       "Toph033",
       "SoulTB",
@@ -8666,8 +8666,8 @@
   {
     "event": "PB15A",
     "date": "12/8/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "FireBreathMan",
       "SandwichLord_",
       "fruitberries",
@@ -8705,8 +8705,8 @@
   {
     "event": "KG3",
     "date": "12/8/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "HDMICables",
       "BroWo9",
       "ImElz",
@@ -8744,8 +8744,8 @@
   {
     "event": "BWO31",
     "date": "12/14/2024",
-    "participant_count": 39,
-    "participants": [
+    "player_count": 39,
+    "players": [
       "Toph033",
       "CxrtxR",
       "SMK64",
@@ -8790,8 +8790,8 @@
   {
     "event": "BB3",
     "date": "12/15/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "mightybrothers1",
       "FireBreathMan",
       "Fantst",
@@ -8829,8 +8829,8 @@
   {
     "event": "CT4",
     "date": "12/21/2024",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "ubhi",
       "xShatter",
       "CGQ_",
@@ -8868,8 +8868,8 @@
   {
     "event": "CH20",
     "date": "12/21/2024",
-    "participant_count": 24,
-    "participants": [
+    "player_count": 24,
+    "players": [
       "Kelawesome",
       "oGarfield",
       "MasterGarf",
@@ -8899,8 +8899,8 @@
   {
     "event": "PB15G",
     "date": "1/5/2025",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kaelan_",
       "ubhi",
       "ilovenons",
@@ -8938,8 +8938,8 @@
   {
     "event": "BW14",
     "date": "1/25/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "xShatter",
       "FireBreathMan",
       "Couriway",
@@ -8985,8 +8985,8 @@
   {
     "event": "BC21",
     "date": "1/25/2025",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Toph033",
       "SoulTB",
       "_Brinkz",
@@ -9024,8 +9024,8 @@
   {
     "event": "BCA21",
     "date": "1/26/2025",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "RubaanOfzo",
       "BoredLmao",
       "ChromaLive",
@@ -9063,8 +9063,8 @@
   {
     "event": "BWO32",
     "date": "2/1/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Toph033",
       "Kelawesome",
       "PhazeRay",
@@ -9110,8 +9110,8 @@
   {
     "event": "CT5",
     "date": "2/2/2025",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "_Brinkz",
       "Toph033",
       "SandwichLord_",
@@ -9149,8 +9149,8 @@
   {
     "event": "TT7",
     "date": "2/16/2025",
-    "participant_count": 48,
-    "participants": [
+    "player_count": 48,
+    "players": [
       "ScottoAC",
       "WheezyMoss",
       "AsterClass",
@@ -9204,8 +9204,8 @@
   {
     "event": "KG4",
     "date": "2/16/2025",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Trolliant",
       "CxrtxR",
       "Stehllar_",
@@ -9243,8 +9243,8 @@
   {
     "event": "BW15",
     "date": "2/22/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Feinberg",
       "Greninja",
       "5uppps",
@@ -9290,8 +9290,8 @@
   {
     "event": "BWO33",
     "date": "3/1/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Kelawesome",
       "SandwichLord_",
       "C10WD",
@@ -9337,8 +9337,8 @@
   {
     "event": "BB4",
     "date": "3/9/2025",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "SlushieVRC",
       "HiImCC",
       "Kaelan_",
@@ -9376,8 +9376,8 @@
   {
     "event": "BC22",
     "date": "3/15/2025",
-    "participant_count": 31,
-    "participants": [
+    "player_count": 31,
+    "players": [
       "SoulTB",
       "Toph033",
       "Kaelan_",
@@ -9414,8 +9414,8 @@
   {
     "event": "TT8",
     "date": "3/22/2025",
-    "participant_count": 48,
-    "participants": [
+    "player_count": 48,
+    "players": [
       "Kaelan_",
       "Kelawesome",
       "WubDub_",
@@ -9469,8 +9469,8 @@
   {
     "event": "BW16",
     "date": "3/29/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Feinberg",
       "Purpled",
       "Antfrost",
@@ -9516,8 +9516,8 @@
   {
     "event": "BWO34",
     "date": "4/12/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Standen05",
       "Toph033",
       "Kaelan_",
@@ -9563,8 +9563,8 @@
   {
     "event": "BCA22",
     "date": "4/20/2025",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "HeerTimmethy",
       "WheezyMoss",
       "BreadEaterPeter",
@@ -9602,8 +9602,8 @@
   {
     "event": "BBM3",
     "date": "4/27/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Trualist",
       "Thisismyname",
       "Snoae",
@@ -9649,8 +9649,8 @@
   {
     "event": "CT6",
     "date": "4/27/2025",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "xShatter",
       "Antfrost",
@@ -9688,8 +9688,8 @@
   {
     "event": "BWO35",
     "date": "5/3/2025",
-    "participant_count": 37,
-    "participants": [
+    "player_count": 37,
+    "players": [
       "Kelawesome",
       "PhazeRay",
       "MarcusDoesMC",
@@ -9732,8 +9732,8 @@
   {
     "event": "MCCBC",
     "date": "5/3/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "FireBreathMan",
       "Purpled",
       "Antfrost",
@@ -9779,8 +9779,8 @@
   {
     "event": "TT9",
     "date": "5/4/2025",
-    "participant_count": 48,
-    "participants": [
+    "player_count": 48,
+    "players": [
       "WheezyMoss",
       "HeerTimmethy",
       "Lampeyre",
@@ -9834,8 +9834,8 @@
   {
     "event": "BWB",
     "date": "5/24/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "xShatter",
       "Feinberg",
       "FireBreathMan",
@@ -9881,8 +9881,8 @@
   {
     "event": "MCCCTW",
     "date": "6/1/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "SandwichLord_",
       "Wichtiger",
       "Shadoune777",
@@ -9928,8 +9928,8 @@
   {
     "event": "MCCP25",
     "date": "6/28/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Antfrost",
       "mysticat_",
       "jojosolos",
@@ -9975,8 +9975,8 @@
   {
     "event": "BBP25",
     "date": "6/29/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "HiImCC",
       "oGarfield",
       "Antfrost",
@@ -10022,8 +10022,8 @@
   {
     "event": "CT7",
     "date": "6/29/2025",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kelawesome",
       "Toph033",
       "silverrruns",
@@ -10061,8 +10061,8 @@
   {
     "event": "KG5",
     "date": "8/3/2025",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "Kaelan_",
       "JohnDubuc",
       "Wolfeei",
@@ -10100,8 +10100,8 @@
   {
     "event": "CT8",
     "date": "8/10/2025",
-    "participant_count": 31,
-    "participants": [
+    "player_count": 31,
+    "players": [
       "Kelawesome",
       "Infume",
       "ubhi",
@@ -10138,8 +10138,8 @@
   {
     "event": "SD1",
     "date": "8/23/2025",
-    "participant_count": 32,
-    "participants": [
+    "player_count": 32,
+    "players": [
       "MxAero",
       "CxrtxR",
       "WeChokeOnMilk",
@@ -10177,8 +10177,8 @@
   {
     "event": "BW17",
     "date": "8/30/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Antfrost",
       "MinuteTech",
       "Sneegsnag",
@@ -10224,8 +10224,8 @@
   {
     "event": "BWO36",
     "date": "9/6/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "FireBreathMan",
       "ubhi",
       "Kaelan_",
@@ -10271,8 +10271,8 @@
   {
     "event": "MCCBG",
     "date": "9/13/2025",
-    "participant_count": 40,
-    "participants": [
+    "player_count": 40,
+    "players": [
       "Purpled",
       "Feinberg",
       "fruitberries",
@@ -10313,6 +10313,91 @@
       "bekyamon",
       "DarkEyebrows",
       "GoodTimeWithScar"
+    ]
+  },
+  {
+    "event": "BWOB",
+    "date": "10/25/2025",
+    "player_count": 39,
+    "players": [
+      "SandwichLord_",
+      "Kaelan_",
+      "Kelawesome",
+      "SoulTB",
+      "Standen05",
+      "ubhi",
+      "Toph033",
+      "Infume",
+      "SMK64",
+      "silverrruns",
+      "hackingnoises",
+      "MarcusDoesMC",
+      "BryTheGuyy",
+      "Feinberg",
+      "ScottoAC",
+      "CGQ_",
+      "EndaeVEVO",
+      "PhazeRay",
+      "Greninja",
+      "Antfrost",
+      "ModdingArt",
+      "craftclan",
+      "Swifyz",
+      "WithMay",
+      "dGc_",
+      "RiceInRealTime",
+      "Kaos21a",
+      "CelestialThumper",
+      "Enderara",
+      "wrait",
+      "OliverSR",
+      "Pineconen",
+      "Lantastic",
+      "ZhuRuho",
+      "spacebr0wnies",
+      "celestialrain",
+      "JohnFromDownPub",
+      "OxyCGolem",
+      "katevena"
+    ]
+  },
+    {
+    "event": "CT9",
+    "date": "10/26/2025",
+    "player_count": 32,
+    "players": [
+      "Kelawesome",
+      "ubhi",
+      "Infume",
+      "Feinberg",
+      "CGQ_",
+      "fruitberries",
+      "dandannyboy",
+      "Antfrost",
+      "BryTheGuyy",
+      "CAAJBE",
+      "jojosolos",
+      "Baablu",
+      "Woogiex",
+      "ghostiefruit",
+      "Loonac",
+      "MasterGarf",
+      "EndaeVEVO",
+      "OliverSR",
+      "Evbo_",
+      "Kaos21a",
+      "LuigiToan",
+      "saparata",
+      "ItsNitroTiger_",
+      "Swifyz",
+      "SimpleFalcon",
+      "WithMay",
+      "Wolfeei",
+      "hackingnoises",
+      "SlushieVRC",
+      "Dimeax",
+      "ish13c",
+      "NotSouls"
     ]
   }
 ]
