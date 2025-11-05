@@ -112,7 +112,9 @@ with col2:
 
 with col3:
     st.header('Changelog')
-    st.write('Recently Added:', list(reversed(list(summaries_unclassified.keys())[-5:])))
+    ra_events = f"```{', '.join(list(reversed(list(summaries_unclassified.keys())[-3:])))}```"    
+
+    st.write('Recently Added:', ra_events)
     st.subheader('TODO')
     st.markdown("""
     - Predictions Tab\n\n
