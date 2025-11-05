@@ -12,12 +12,36 @@ st.caption('I: Inactivity | S: Start')
 data = pd.read_parquet('data/rankings.parquet')
 data.insert(0, "", range(1, len(data) + 1))
 for col in data.select_dtypes(include=['float']).columns:
-    data[col] = data[col].round(0)
+    data[col] = data[col].round(0).astype('int64')
+players = data["Player"]
 
-st.write("Player Count:", data.shape[0])
+player_filter = st.selectbox("Player", options = sorted(players), index=None)
+if player_filter is not None:
+    start_pos = data.index.get_loc(player_filter.lower().replace("_",""))
+else:
+    start_pos = 0
+
+string_to_find = player_filter
+
+def highlight_row(row):
+
+    if not string_to_find:
+        return [''] * len(row)
+
+    contains_string = row.astype(str).str.contains(string_to_find, case=False).any()
+    
+    if contains_string:
+        style = 'background-color: #0b0a0cff; color: #EAE151; font-weight: bold;'
+        return [style] * len(row)
+    else:
+        return [''] * len(row)
 
 st.dataframe(
-    data,
+    data.iloc[max(0,start_pos - 4) - max(start_pos + 6, data.shape[0]): min(start_pos + 6, data.shape[0]) - min(0,start_pos - 4)].style.apply(
+                highlight_row, axis=1
+            ).text_gradient(
+                cmap='RdYlGn', subset = ['Rating', 'Peak'] + list(data.columns[7:]), axis=None
+            ),
     column_config={
         "" : st.column_config.NumberColumn(format = "%d.", pinned = True),
         "Avatar" : st.column_config.ImageColumn("", pinned = True),
@@ -29,9 +53,26 @@ st.dataframe(
         "I" : st.column_config.NumberColumn(pinned = True),
     },
     hide_index=True,
+    height=round(36.5+35.05*10)
+
 )
 
-st.download_button("Download Full Data (.csv)", data=pd.read_parquet('data/rankings.parquet').to_csv(), file_name='rating_history.csv')
+with st.expander('Full History'):
+    st.dataframe(
+        data,
+        column_config={
+            "" : st.column_config.NumberColumn(format = "%d.", pinned = True),
+            "Avatar" : st.column_config.ImageColumn("", pinned = True),
+            "Player" : st.column_config.TextColumn(pinned = True),
+            "Rating" : st.column_config.NumberColumn(format = "%f",
+                pinned = True),
+            "Peak" : st.column_config.NumberColumn(pinned = True),
+            "Events" : st.column_config.NumberColumn(pinned = True),
+            "I" : st.column_config.NumberColumn(pinned = True),
+        },
+        hide_index=True,
+    )
+    st.download_button("Download Full History (.csv)", data=pd.read_parquet('data/rankings.parquet').to_csv(), file_name='rating_history.csv')
 
 col1, col2 = st.columns(2)
 
