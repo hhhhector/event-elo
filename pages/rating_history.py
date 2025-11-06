@@ -77,10 +77,10 @@ with st.expander('Full History'):
 col1, col2 = st.columns(2)
 
 with col1:
-    m = st.number_input("Players", value=10, min_value=1, max_value=len(data))
+    m = st.slider("Players", value = 10, min_value = 1, max_value = len(data))
 
 with col2:
-    n = st.number_input("Events", value=30)
+    n = st.slider("Events", value = data.shape[1] - 8, min_value = 1, max_value = data.shape[1] - 8)
 
 plot_data_wide = data.reset_index().drop(
     columns = ["", "Avatar", "Rating", "Peak", "Events", "I", "index"]
@@ -96,7 +96,7 @@ plot_data_long = plot_data_wide.melt(
 player_order = plot_data_long['Player'].unique()
 
 
-chart = alt.Chart(plot_data_long, height=600).mark_line(point=alt.OverlayMarkDef(size=20), size=1.5).encode(
+chart = alt.Chart(plot_data_long, height=600).mark_line(point=alt.OverlayMarkDef(size=100, opacity=0), size=1.5).encode(
     
     x=alt.X('Event', 
         sort=alt.SortField('SortOrder')
