@@ -36,7 +36,7 @@ with col1:
 
     top_50 = top_50[["", "Avatar", "Player", "Rating", "Rating Change", "Peak", "Events"]]
 
-    top_50['link'] = top_50['Player'].apply(lambda x: f"/test?id={x}")
+    top_50['link'] = top_50['Player'].apply(lambda x: f"/players?id={x}")
 
 
     def style_specific_cell(x):

@@ -13,11 +13,17 @@ with open('./data/summaries_unclassified.pkl', 'rb') as file:
 
 event_set = reversed(list(summaries.keys()))
 
-url_player = st.query_params["id"]
+default_index = 0
 
-default_index = None
-if url_player in players_list:
-    default_index = players_list.index(url_player)
+try: 
+    st.query_params["id"]
+    url_player = st.query_params["id"]
+
+    if url_player in players_list:
+        default_index = players_list.index(url_player)
+except KeyError:
+    pass
+    
 
 with st.sidebar:
     selected_player = st.selectbox("Choose a Player", options=players, index=default_index)
