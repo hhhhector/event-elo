@@ -36,20 +36,27 @@ with col1:
 
     top_50 = top_50[["", "Avatar", "Player", "Rating", "Rating Change", "Peak", "Events"]]
 
+    top_50['link'] = top_50['Player'].apply(lambda x: f"/test?id={x}")
+
+
     def style_specific_cell(x):
         styler_df = pd.DataFrame('', index=x.index, columns=x.columns)
 
         for i in range(7):
+            for j in range(len(styler_df)):
+                styler_df.iat[j, i] = 'color: #ffffff'
 
             styler_df.iat[0, i] = 'color: #eac451' 
             styler_df.iat[1, i] = 'color: #888888'
             styler_df.iat[2, i] = 'color: #ea8451'
+
         
         return styler_df
 
+
     st.header("Top 50 Players")
     with st.container(horizontal_alignment='center'): 
-        st.dataframe(top_50.style.apply(
+        st.dataframe(top_50[["", "Avatar", "link", "Rating", "Rating Change", "Peak", "Events"]].style.apply(
                 style_specific_cell,
                 axis=None
             ).text_gradient(
@@ -64,6 +71,7 @@ with col1:
                 'Rating Change': st.column_config.NumberColumn("",format='%+.0f'),
                 "Peak" : st.column_config.NumberColumn(),
                 "Events" : st.column_config.NumberColumn(),
+                'link' : st.column_config.LinkColumn(display_text=r"/test\?id=(.*)")
             },
             width="content",
             height=round(36.5+35.05*50),

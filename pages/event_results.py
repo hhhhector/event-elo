@@ -12,9 +12,9 @@ event_types = ["MCC", "BW", "FW", "PB", "MH", "MN", "BC", "FUW", "JC", "CT", "BB
 
 
 with open('./data/summaries_unclassified.pkl', 'rb') as file:
-    data = pkl.load(file)
+    summaries = pkl.load(file)
 
-event_set = reversed(list(data.keys()))
+event_set = reversed(list(summaries.keys()))
 
 col1, col2, col3 = st.columns(3)
 
@@ -34,7 +34,7 @@ else:
         
         if (not search or search.lower() in event_name.lower())
         
-        and (not player_filter or player_filter.lower() in [x.lower() for x in data[event_name]['players']])
+        and (not player_filter or player_filter.lower() in [x.lower() for x in summaries[event_name]['players']])
     ]
 
 with col3:
@@ -61,7 +61,7 @@ st.write("Displaying", len(filtered_event_set), 'events')
 
 
 for event_name in filtered_event_set:
-    this_event = data[event_name]
+    this_event = summaries[event_name]
     this_event_results = this_event['results']
 
     for col in ['Rating', 'Rating Change', 'New Rating']:
@@ -74,8 +74,8 @@ for event_name in filtered_event_set:
     this_event_results = this_event_results[['Position', 'Avatar', 'Player', 'Rating', 'Global', 'EP', 'AP', 'Score', 'New Rating', 'Rating Change', 'New Global', 'Global Change']]
     this_event_results = this_event_results.rename(columns = {'Position': ''})  
 
-    rc_abs_max = this_event_results['Rating Change'].abs().max()
-    gc_abs_max = this_event_results['Global Change'].abs().max()
+    rc_abs_max = this_event_results['Rating Change'].abs().max()/3
+    gc_abs_max = this_event_results['Global Change'].abs().max()/3
 
     with st.container(horizontal_alignment='center'):
 
