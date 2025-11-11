@@ -15,22 +15,20 @@ event_set = reversed(list(summaries.keys()))
 
 default_index = 0
 
-try: 
-    st.query_params["id"]
-    url_player = st.query_params["id"]
-
-    if url_player in players_list:
-        default_index = players_list.index(url_player)
-except KeyError:
-    pass
+if 'player_selector' in st.session_state:
+    default_index = None
+else:
+    try: 
+        url_player = st.query_params["id"]
+        if url_player in players_list:
+            default_index = players_list.index(url_player)
+    except KeyError:
+        pass 
     
 
 with st.sidebar:
-    selected_player = st.selectbox("Choose a Player", options=players, index=default_index)
+    selected_player = st.selectbox("Choose a Player", options=players, index=default_index, key='player_selector')
     selected_id = selected_player.lower().replace("_","")
-
-print(selected_player)
-
 
 col1, col2 = st.columns([0.1,0.7], width=600, vertical_alignment='bottom', border=False)
 
