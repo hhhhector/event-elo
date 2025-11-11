@@ -71,7 +71,7 @@ with col1:
                 'Rating Change': st.column_config.NumberColumn("",format='%+.0f'),
                 "Peak" : st.column_config.NumberColumn(),
                 "Events" : st.column_config.NumberColumn(),
-                'link' : st.column_config.LinkColumn(display_text=r"/test\?id=(.*)")
+                'link' : st.column_config.LinkColumn("Player", display_text=r"/players\?id=(.*)")
             },
             width="content",
             height=round(36.5+35.05*50),
