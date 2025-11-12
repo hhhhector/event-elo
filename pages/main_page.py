@@ -12,9 +12,9 @@ rankings = pd.read_parquet('./data/rankings.parquet')
 with open('./data/summaries_unclassified.pkl', 'rb') as file:
     summaries_unclassified = pkl.load(file)
 
-
+old_rankings = rankings.sort_values(by = rankings.columns[-2], ascending=False)
+old_rankings.insert(0, "", range(1, len(rankings) + 1))
 rankings.insert(0, "", range(1, len(rankings) + 1))
-
 
 col1, col2, col3 = st.columns(3)
 
@@ -22,8 +22,10 @@ with col1:
 
     top_50 = rankings.head(50).iloc[:,:6]
     top_50["Rating Change"] = rankings.head(50).iloc[:,-1] - rankings.head(50).iloc[:,-2]
-    
-    rc_abs_max = top_50['Rating Change'].abs().max()
+    top_50["Global Change"] = top_50.index.map(old_rankings['']) - top_50['']    
+
+    rc_abs_max = top_50['Rating Change'].abs().max()/3
+    gc_abs_max = top_50['Global Change'].abs().max()/3
 
     for col in top_50.select_dtypes(include=['float']).columns:
         top_50[col] = top_50[col].round(0).astype('int64')
@@ -34,12 +36,17 @@ with col1:
         top_50['Rating Change'] 
     )
 
-    top_50 = top_50[["", "Avatar", "Player", "Rating", "Rating Change", "Peak", "Events"]]
+    top_50['Global Change'] = np.where(
+        top_50['Global Change'] == 0,
+        np.nan,
+        top_50['Global Change'] 
+    )
+
+    top_50 = top_50[["", "Global Change", "Avatar", "Player", "Rating", "Rating Change", "Peak", "Events"]]
 
     top_50['link'] = top_50['Player'].apply(lambda x: f"/players?id={x}")
 
-
-    def style_specific_cell(x):
+    def style_specific_row(x):
         styler_df = pd.DataFrame('', index=x.index, columns=x.columns)
 
         for i in range(7):
@@ -55,15 +62,18 @@ with col1:
 
     st.header("Top 50 Players")
     with st.container(horizontal_alignment='center'): 
-        st.dataframe(top_50[["", "Avatar", "link", "Rating", "Rating Change", "Peak", "Events"]].style.apply(
-                style_specific_cell,
+        st.dataframe(top_50[["", "Global Change", "Avatar", "link", "Rating", "Rating Change", "Peak", "Events"]].style.apply(
+                style_specific_row,
                 axis=None
             ).text_gradient(
                 cmap='RdYlGn', subset=['Rating Change'],vmin=-rc_abs_max,vmax=rc_abs_max
+            ).text_gradient(
+                cmap='RdYlGn', subset=['Global Change'],vmin=-gc_abs_max,vmax=gc_abs_max
             ),
             hide_index=True,
             column_config={
                 "" : st.column_config.NumberColumn(format = "#%d"),
+                "Global Change": st.column_config.NumberColumn("", format = '%+.0f'),
                 "Avatar" : st.column_config.ImageColumn(""),
                 'link' : st.column_config.LinkColumn("Player", display_text=r"/players\?id=(.*)"),
                 "Rating" : st.column_config.NumberColumn(format = "%f"),
@@ -95,7 +105,7 @@ with col2:
 
     with st.container(horizontal_alignment='center'): 
         st.dataframe(last_event[['Position', "Avatar", "link", "New Rating", "Rating Change", "New Global", "Global Change"]].style.apply(
-                style_specific_cell,
+                style_specific_row,
                 axis=None
             ).text_gradient(
                 cmap='RdYlGn', subset=['Rating Change'],vmin=-rc_abs_max,vmax=rc_abs_max
