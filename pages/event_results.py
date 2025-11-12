@@ -5,6 +5,25 @@ import pandas as pd
 
 st.title('Event Results')
 st.caption('EP : Expected Placement | AP : Actual Placement | Score : EP - AP')
+st.markdown("""
+<style>
+.white-link {
+    color: white !important; 
+    text-decoration: none !important; 
+}
+
+.white-link:hover {
+    color: #aaa !important;
+    text-decoration: none !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+with st.sidebar:
+    st.markdown(
+        '<a href="https://discord.gg/74dTEfaNFc" target="_blank" class="white-link">Discord</a>', 
+        unsafe_allow_html=True
+    )
 
 rating_history = pd.read_parquet('./data/rating_history.parquet')
 players = rating_history["Player"]

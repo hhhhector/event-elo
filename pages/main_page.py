@@ -5,7 +5,25 @@ import numpy as np
 
 st.title('Minecraft ```Event``` Elo')
 st.caption('by hector')
-st.write('WELCOME to the new website more features coming SOON.')
+st.markdown("""
+<style>
+.white-link {
+    color: white !important; 
+    text-decoration: none !important; 
+}
+
+.white-link:hover {
+    color: #aaa !important;
+    text-decoration: none !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+with st.sidebar:
+    st.markdown(
+        '<a href="https://discord.gg/74dTEfaNFc" target="_blank" class="white-link">Discord</a>', 
+        unsafe_allow_html=True
+    )
 
 rankings = pd.read_parquet('./data/rankings.parquet')
 
@@ -142,3 +160,4 @@ with col3:
     - Make Website Prettier\n\n
     - Make Code Prettier\n\n 
              """)
+

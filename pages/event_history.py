@@ -4,7 +4,25 @@ import numpy as np
 
 st.title('Event History')
 
-# Load Data
+st.markdown("""
+<style>
+.white-link {
+    color: white !important; 
+    text-decoration: none !important; 
+}
+
+.white-link:hover {
+    color: #aaa !important;
+    text-decoration: none !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+with st.sidebar:
+    st.markdown(
+        '<a href="https://discord.gg/74dTEfaNFc" target="_blank" class="white-link">Discord</a>', 
+        unsafe_allow_html=True
+    )
 
 data = pd.read_json("data/event_history.json")
 data['date'] = pd.to_datetime(data['date'])

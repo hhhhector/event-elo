@@ -3,6 +3,27 @@ import pandas as pd
 import pickle as pkl
 import altair as alt
 
+st.markdown("""
+<style>
+.white-link {
+    color: white !important; 
+    text-decoration: none !important; 
+}
+
+.white-link:hover {
+    color: #aaa !important;
+    text-decoration: none !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+with st.sidebar:
+    st.markdown(
+        '<a href="https://discord.gg/74dTEfaNFc" target="_blank" class="white-link">Discord</a>', 
+        unsafe_allow_html=True
+    )
+
+
 rankings = pd.read_parquet('./data/rankings.parquet')
 rankings.insert(0, "Position", range(1, len(rankings) + 1))
 players = rankings['Player']
@@ -159,3 +180,4 @@ else:
     st.write('?')
     
 st.query_params["id"] = selected_player
+

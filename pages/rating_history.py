@@ -5,7 +5,25 @@ import altair as alt
 
 st.title('Rating History')
 st.caption('I: Inactivity | S: Start')
+st.markdown("""
+<style>
+.white-link {
+    color: white !important; 
+    text-decoration: none !important; 
+}
 
+.white-link:hover {
+    color: #aaa !important;
+    text-decoration: none !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+with st.sidebar:
+    st.markdown(
+        '<a href="https://discord.gg/74dTEfaNFc" target="_blank" class="white-link">Discord</a>', 
+        unsafe_allow_html=True
+    )
 
 # Load Data
 
@@ -116,3 +134,4 @@ chart = alt.Chart(plot_data_long, height=600).mark_line(point=alt.OverlayMarkDef
 
 
 st.altair_chart(chart)
+
