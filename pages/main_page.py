@@ -49,8 +49,7 @@ with col1:
             styler_df.iat[0, i] = 'color: #eac451' 
             styler_df.iat[1, i] = 'color: #888888'
             styler_df.iat[2, i] = 'color: #ea8451'
-
-        
+       
         return styler_df
 
 
@@ -66,12 +65,11 @@ with col1:
             column_config={
                 "" : st.column_config.NumberColumn(format = "#%d"),
                 "Avatar" : st.column_config.ImageColumn(""),
-                'Player': st.column_config.TextColumn(width = 125),
+                'link' : st.column_config.LinkColumn("Player", display_text=r"/players\?id=(.*)"),
                 "Rating" : st.column_config.NumberColumn(format = "%f"),
                 'Rating Change': st.column_config.NumberColumn("",format='%+.0f'),
                 "Peak" : st.column_config.NumberColumn(),
                 "Events" : st.column_config.NumberColumn(),
-                'link' : st.column_config.LinkColumn("Player", display_text=r"/players\?id=(.*)")
             },
             width="content",
             height=round(36.5+35.05*50),
@@ -83,19 +81,20 @@ with col2:
         ['Position', 'Player', 'New Rating', 'Rating Change', 'New Global', 'Global Change']
     ]
     last_event.insert(1, "Avatar", "https://mc-heads.net/avatar/" + last_event["Player"])
-    st.header("```" + str(list(summaries_unclassified.keys())[-1]) + "``` Results")
 
+    last_event['link'] = last_event['Player'].apply(lambda x: f"/players?id={x}")
 
     for col in ['Rating Change', 'New Rating']:
         last_event.loc[:,col] = last_event[col].round(0).astype('int64')
-
 
     rc_abs_max = last_event['Rating Change'].abs().max()
     gc_abs_max = last_event['Global Change'].abs().max()
 
 
+    st.header("```" + str(list(summaries_unclassified.keys())[-1]) + "``` Results")
+
     with st.container(horizontal_alignment='center'): 
-        st.dataframe(last_event.style.apply(
+        st.dataframe(last_event[['Position', "Avatar", "link", "New Rating", "Rating Change", "New Global", "Global Change"]].style.apply(
                 style_specific_cell,
                 axis=None
             ).text_gradient(
@@ -107,7 +106,7 @@ with col2:
         column_config={
             "Position" : st.column_config.NumberColumn("",format = "#%d"),
             "Avatar" : st.column_config.ImageColumn(""),
-            'Player': st.column_config.TextColumn(width = 125),
+            'link' : st.column_config.LinkColumn("Player", display_text=r"/players\?id=(.*)"),
             "New Rating" : st.column_config.NumberColumn("Rating",format = "%f"),
             'Rating Change': st.column_config.NumberColumn("",format='%+.0f'),
             "New Global" : st.column_config.NumberColumn("Global",format = "#%d"),
