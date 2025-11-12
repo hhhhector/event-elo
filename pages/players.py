@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle as pkl
-
+import altair as alt
 
 rankings = pd.read_parquet('./data/rankings.parquet')
 rankings.insert(0, "Position", range(1, len(rankings) + 1))
@@ -11,7 +11,6 @@ players_list = players.tolist()
 with open('./data/summaries_unclassified.pkl', 'rb') as file:
     summaries = pkl.load(file)
 
-event_set = reversed(list(summaries.keys()))
 
 default_index = 0
 
@@ -44,6 +43,50 @@ st.write(
     '``` Events: ```' + str(rankings.loc[selected_id]['Events']) + 
     '```'
     )
+
+col1, col2 = st.columns(2)
+
+with col1:
+    m = st.slider("Players", value = 10, min_value = 1, max_value = len(rankings))
+
+with col2:
+    n = st.slider("Events", value = rankings.shape[1] - 8, min_value = 1, max_value = rankings.shape[1] - 8)
+
+for col in rankings.select_dtypes(include=['float']).columns:
+    rankings[col] = rankings[col].round(0).astype('int64')
+
+plot_data_wide = rankings[rankings["Player"] == selected_player].reset_index().drop(
+    columns = ["Avatar", "Rating", "Peak", "Events", "I", "index"]
+).head(m).set_index("Player").T.iloc[-n:,:]
+plot_data_wide.reset_index()
+plot_data_wide['SortOrder'] = range(len(plot_data_wide))
+plot_data_wide = plot_data_wide.reset_index().rename(columns={'index': 'Event'})
+plot_data_long = plot_data_wide.melt(
+    id_vars=['Event', 'SortOrder'],  
+    var_name='Player',            
+    value_name='Rating'           
+)
+
+
+chart = alt.Chart(plot_data_long, height=600).mark_line(point=alt.OverlayMarkDef(size=100, opacity=0), size=1.5).encode(
+    
+    x=alt.X('Event', 
+        sort=alt.SortField('SortOrder')
+    ),
+    
+    y=alt.Y('Rating',
+        scale=alt.Scale(domain=[min(plot_data_long["Rating"]) - 100,max(plot_data_long["Rating"]) + 100])
+    ),
+
+    color=alt.value('#EAE151'),
+
+    tooltip=['Event', 'Rating']
+
+).interactive()
+
+
+st.altair_chart(chart)
+event_set = reversed(list(summaries.keys()))
 
 filtered_event_set = []
 
@@ -80,6 +123,7 @@ for col in ['EP', 'AP', 'Score']:
 rc_abs_max = player_events_df['Rating Change'].abs().max()/3
 gc_abs_max = player_events_df['Global Change'].abs().max()/3
 
+st.header('Played Events')
 
 with st.container(horizontal_alignment='center'):
 
