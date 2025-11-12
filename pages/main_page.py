@@ -5,6 +5,7 @@ import numpy as np
 
 st.title('Minecraft ```Event``` Elo')
 st.caption('by hector')
+st.markdown('Join the [Discord](https://discord.gg/74dTEfaNFc)')
 st.markdown("""
 <style>
 .white-link {
