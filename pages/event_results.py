@@ -44,7 +44,7 @@ with col2:
     player_filter = st.selectbox("Player", options = sorted(players), index=None)
 
 
-filtered_event_set = {}
+filtered_event_set = []
 if not search and not player_filter:
     filtered_event_set = list(event_set)
 else:
@@ -58,6 +58,7 @@ else:
 
 filtered_event_set_details = [{'name' : x} for x in filtered_event_set]
 
+
 for filtered_event_details in filtered_event_set_details:
     filtered_event_details['Date'] = summaries[filtered_event_details['name']]['date']
     filtered_event_details['NP EP'] = summaries[filtered_event_details['name']]['stats']['NP EP']
@@ -69,15 +70,14 @@ filtered_event_set_details = pd.DataFrame(filtered_event_set_details)
 with col3:
     sort_order = st.selectbox('Sort By: ', options = ['Date', 'NP EP', 'NP RC First', 'NP RC Last'])
 
-filtered_event_set_details = filtered_event_set_details.sort_values(by = sort_order, ascending=False)
+if len(filtered_event_set) != 0:
+    filtered_event_set_details = filtered_event_set_details.sort_values(by = sort_order, ascending=False)
 
 with col4:
     limit = st.number_input("Display Limit (max: " + str(len(filtered_event_set)) + ")", min_value=0, max_value=len(filtered_event_set), value=min(20,len(filtered_event_set)))
-filtered_event_set = filtered_event_set_details['name']
-filtered_event_set = filtered_event_set[0:limit]
-
-
-print(filtered_event_set)
+if len(filtered_event_set) != 0:
+    filtered_event_set = filtered_event_set_details['name']
+    filtered_event_set = filtered_event_set[0:limit]
 
 string_to_find = player_filter
 
