@@ -4,7 +4,7 @@ import matplotlib
 import pandas as pd
 
 st.title('Event Results')
-st.caption('EP : Expected Placement | AP : Actual Placement | Score : EP - AP')
+st.caption('EP : Expected Placement | AP : Actual Placement | Score : EP - AP\n\nNP are measures of event competitivity I\'m testing\n\nNP EP is the expected placement for a new player, NP RC First is the rating a new player would have if they won the event, NP RC Last is the rating a new player would have if they lost the event.')
 st.markdown("""
 <style>
 .white-link {
@@ -35,7 +35,7 @@ with open('./data/summaries_unclassified.pkl', 'rb') as file:
 
 event_set = reversed(list(summaries.keys()))
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     search = st.text_input("Event Name", value=None)
@@ -44,7 +44,7 @@ with col2:
     player_filter = st.selectbox("Player", options = sorted(players), index=None)
 
 
-filtered_event_set = []
+filtered_event_set = {}
 if not search and not player_filter:
     filtered_event_set = list(event_set)
 else:
@@ -56,10 +56,28 @@ else:
         and (not player_filter or player_filter.lower() in [x.lower() for x in summaries[event_name]['players']])
     ]
 
-with col3:
-    limit = st.number_input("Display Limit (max: " + str(len(filtered_event_set)) + ")", min_value=0, max_value=len(filtered_event_set), value=min(20,len(filtered_event_set)))
+filtered_event_set_details = [{'name' : x} for x in filtered_event_set]
 
+for filtered_event_details in filtered_event_set_details:
+    filtered_event_details['Date'] = summaries[filtered_event_details['name']]['date']
+    filtered_event_details['NP EP'] = summaries[filtered_event_details['name']]['stats']['NP EP']
+    filtered_event_details['NP RC First'] = summaries[filtered_event_details['name']]['stats']['NP RC First']
+    filtered_event_details['NP RC Last'] = summaries[filtered_event_details['name']]['stats']['NP RC Last']
+
+filtered_event_set_details = pd.DataFrame(filtered_event_set_details)
+
+with col3:
+    sort_order = st.selectbox('Sort By: ', options = ['Date', 'NP EP', 'NP RC First', 'NP RC Last'])
+
+filtered_event_set_details = filtered_event_set_details.sort_values(by = sort_order, ascending=False)
+
+with col4:
+    limit = st.number_input("Display Limit (max: " + str(len(filtered_event_set)) + ")", min_value=0, max_value=len(filtered_event_set), value=min(20,len(filtered_event_set)))
+filtered_event_set = filtered_event_set_details['name']
 filtered_event_set = filtered_event_set[0:limit]
+
+
+print(filtered_event_set)
 
 string_to_find = player_filter
 
@@ -101,7 +119,10 @@ for event_name in filtered_event_set:
         st.header(this_event["event"] + ' Results')
         st.write('Date:', this_event['date'].strftime("```%Y-%m-%d```"))
         st.write("Player Count:", this_event["player_count"])
-    
+        
+        for key, value in this_event['stats'].items():
+            st.write(key + ":", round(value, 1))
+
 
         st.dataframe(
             this_event_results.style.apply(
