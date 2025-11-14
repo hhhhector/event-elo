@@ -65,8 +65,8 @@ for event_name in event_set:
                 "" : st.column_config.NumberColumn(format = "%d."),
                 'Avatar': st.column_config.ImageColumn(""),
                 'Player': st.column_config.TextColumn(),
-                'Rating': st.column_config.NumberColumn('Old Rating'),
-                'Global': st.column_config.NumberColumn("Old Global", format = "#%d"),
+                'Rating': st.column_config.NumberColumn('Rating'),
+                'Global': st.column_config.NumberColumn("Global", format = "#%d"),
                 'EP': st.column_config.NumberColumn(format="%.1f"),
             }
         )
