@@ -61,7 +61,6 @@ for event_name in event_set:
             ),  
             hide_index=True,
             width='content',
-            height=round(36.5+0.5*35.05*len(this_event_preds)),
             column_config={
                 "" : st.column_config.NumberColumn(format = "%d."),
                 'Avatar': st.column_config.ImageColumn(""),
