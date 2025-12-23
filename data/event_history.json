@@ -8128,7 +8128,7 @@
       "P4ntha",
       "CopperSkeppy",
       "Jynxxin",
-      "BubblestheFriend",
+      "BubblestheFriendly",
       "zombreyy",
       "Boyceyboo",
       "Brillio",
@@ -8477,7 +8477,7 @@
       "Rhil",
       "0nei",
       "Durtel",
-      "BubblesTheFriend",
+      "BubblesTheFriendly",
       "jackdoescoolstuf",
       "onyxedd",
       "oSolar",
@@ -8786,7 +8786,7 @@
       "HDMICables",
       "BroWo9",
       "ImElz",
-      "BubblesTheFriend",
+      "BubblesTheFriendly",
       "HammSamichz",
       "AvaJC",
       "IInvex",
@@ -9372,7 +9372,7 @@
       "RinRaccoon",
       "hiitzhunter",
       "ItsMeMarshy_",
-      "BubblesTheFriend",
+      "BubblesTheFriendly",
       "Maggiemoozle",
       "zzzglitch",
       "Zingzy",
@@ -11636,5 +11636,7 @@
       "Roscumber",
       "Snifferish"
     ]
+  }, {
+    "event" : "CT10"
   }
 ]
