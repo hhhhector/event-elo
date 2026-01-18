@@ -5987,7 +5987,7 @@
       "Clovish",
       "MariannaIsAPeach",
       "LuluTheLoser",
-      "Sapfixx",
+      "SapfixxTV",
       "DopeyForbs",
       "GrumGaming",
       "ktmh96",
@@ -11636,7 +11636,8 @@
       "Roscumber",
       "Snifferish"
     ]
-  }, {
+  },
+  {
     "event" : "CH22",
     "date" : "2025-12-20",
     "player_count" : 24,
@@ -11666,7 +11667,8 @@
       "AzureWisps",
       "Sorbetes"
     ]
-  }, {
+  },
+  {
     "event": "PBYPT",
     "date": "2025-12-20",
     "player_count": 32,
@@ -11701,7 +11703,7 @@
       "bradenrds",
       "Bluekwyrm",
       "jollybiseus",
-      "SomethinglikeA",
+      "SomethinglikeAmy",
       "Regisaur"
     ]
   },
@@ -11743,7 +11745,8 @@
       "Lantastic",
       "Bluekwyrm"
     ]
-  },{
+  },
+  {
     "event" : "PBCH",
     "date" : "2025-12-21",
     "player_count" : 32,
@@ -11781,7 +11784,8 @@
       "dusanana",
       "Mine_Crafting" 
     ]
-  },{
+  },
+  {
     "event" : "PBSLSH",
     "date" : "2026-01-03",
     "player_count" : 32,
@@ -11819,7 +11823,8 @@
       "LGBTQI",
       "StoneAndSpirits"
     ]
-  },{
+  },
+  {
     "event" : "PBTW",
     "date" : "2026-01-03",
     "player_count" : 32,
@@ -11857,7 +11862,8 @@
       "Agon130",
       "itsnuku"
     ]
-  },{
+  },
+  {
     "event" : "PBGC",
     "date" : "2026-01-10",
     "player_count" : 32,
@@ -11895,7 +11901,55 @@
       "axoible",
       "h2208"
     ]
-  },{
+  },
+  {
+    "event" : "CC5",
+    "date" : "2026-01-11",
+    "player_count" : 40,
+    "players" : [
+      "RubaanOfzo",
+      "Sacronix",
+      "candycanesforu",
+      "xFrosties",
+      "_Mackles",
+      "Asphult",
+      "oToadd",
+      "Zenllow",
+      "5kiv",
+      "CarrotCakeMan",
+      "xDandyy",
+      "DerpMask",
+      "Dolpheney",
+      "Areodactyl",
+      "ImElz",
+      "QuartzIsCanon",
+      "KosThePenguin",
+      "Astrayics",
+      "druae",
+      "PrabsSSP",
+      "SapfixxTV",
+      "zzzglitch",
+      "somebirdgal",
+      "Blakeeee",
+      "SomethingLikeAmy",
+      "KingBlackstone",
+      "Pokemaster404",
+      "Slizcore",
+      "SimplyAlexiss",
+      "Glazedcheese",
+      "Litluke9809",
+      "c12dawg",
+      "gracemewo",
+      "vKairos",
+      "MrPancakePlays",
+      "NotCherryyy",
+      "Hubon321",
+      "Clovish",
+      "Zingzy",
+      "Glitch3959"
+    ]
+  },
+  {
     "event" : "PBIL",
     "date" : "2026-01-17",
     "player_count" : 31,
